@@ -1,0 +1,16 @@
+{
+  "id": "translation-es-gold",
+  "name": "Spanish translation (Gold)",
+  "version": "0.1.0",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "games": ["gold"],
+  "category": "GAMEPLAY",
+  "priority": 100,
+  "dependencies": [],
+  "optional_dependencies": [],
+  "conflicts": [],
+  "description": "Traducción española para Pokémon Gold: diálogos oficiales de PokeCorpus (3042), entradas de la Pokédex (251), nombres de objetos (214), movimientos (249) y clases de entrenadores (54), con glifos acentuados. Los nombres de Pokémon son idénticos en ambos idiomas."
+}
