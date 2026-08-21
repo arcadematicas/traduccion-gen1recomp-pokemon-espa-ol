@@ -1,0 +1,22 @@
+{
+  "id": "translation-es-goldsilver",
+  "name": "Spanish translation (Gold/Silver)",
+  "version": "0.1.0",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "games": [
+    "gold",
+    "silver"
+  ],
+  "category": "LANGUAGE",
+  "language": true,
+  "priority": 100,
+  "dependencies": [],
+  "optional_dependencies": [],
+  "conflicts": [],
+  "incompatible": [],
+  "experimental": false,
+  "description": "Traduccion espanola completa para Pokemon Gold y Silver: dialogos, cadenas del motor, nombres, Pokédex, estados de batalla, radio del Pokegear, mapa, decoraciones y pantalla de nombres con acentos."
+}

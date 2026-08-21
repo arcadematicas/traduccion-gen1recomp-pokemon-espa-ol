@@ -1,0 +1,30 @@
+return {
+  summary   = "Traduccion espanola completa para Pokemon Gold y Silver (dialogos, UI, nombres, radio, mapa).",
+  author    = "Fransis",
+  tags      = { "language", "spanish", "gold", "silver" },
+  differences = {
+    changed = {
+      "Todos los dialogos del juego traducidos al espanol",
+      "Cadenas del motor (batalla, objetos, UI) traducidas",
+      "Nombres de objetos, movimientos y entrenadores traducidos",
+      "Estados de batalla con etiquetas HUD en espanol",
+      "Emisoras de radio del Pokegear traducidas",
+      "Nombres de lugares del mapa traducidos",
+      "Decoraciones de habitacion traducidas",
+      "Pantalla de nombres con letras acentuadas",
+      "Fuente personalizada con glifos espanoles",
+    },
+    added = {
+      "Soporte para regitras Gen 2-only: radio_channels, landmarks, decorations, status_labels, strings",
+      "Pantalla de nombres con acentos (naming.lua)",
+    },
+    known = {
+      "Los nombres de Pokemon se mantienen en ingles (identicos en ambos idiomas)",
+    },
+  },
+  credits   = {
+    { who = "Fransis", for_ = "traduccion y adaptacion" },
+    { who = "PokeCorpus", for_ = "dialogos originales traducidos" },
+  },
+  compat    = { engine = ">=0.2.0 <1.0.0", modApi = 2 },
+}
