@@ -11,6 +11,17 @@ que corre Pokémon Rojo/Azul/Amarillo y los Gen 2 a través de un motor unificad
 
 ---
 
+### 📍 Hogar del proyecto
+
+Este repositorio es **la única casa** de las traducciones al español de gen1recomp
+(Rojo/Azul/Amarillo y Oro/Plata/Cristal). Las próximas versiones se suben here,
+como **actualizaciones del mismo mod** (nombre fijo, versión incrementada) sin
+crear repos ni nombres nuevos. Cada mod tiene su carpeta y su release `.zip`.
+
+- [Changelog](CHANGELOG.md) — historial de cambios de todos los mods.
+
+---
+
 ## Descripción
 
 Este mod traduce al español **todos los diálogos, menús, nombres, estados de
