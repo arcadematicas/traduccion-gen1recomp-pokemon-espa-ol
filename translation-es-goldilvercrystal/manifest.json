@@ -1,0 +1,23 @@
+{
+  "id": "translation-es-goldilvercrystal",
+  "name": "Traducción al español (Oro/Plata/Cristal)",
+  "version": "0.1.0",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "games": [
+    "gold",
+    "silver",
+    "crystal"
+  ],
+  "category": "LANGUAGE",
+  "language": true,
+  "priority": 100,
+  "dependencies": [],
+  "optional_dependencies": [],
+  "conflicts": [],
+  "incompatible": [],
+  "experimental": false,
+  "description": "Traducción al español para Pokemon Gold, Silver y Crystal: diálogos (origen PokeCorpus + reutiliza oro/plata), cadenas del motor, nombres de movimientos/objetos/entrenadores, estados de batalla, radio del Pokegear, mapa, decoraciones y pantalla de nombres con acentos."
+}

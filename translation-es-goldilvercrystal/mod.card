@@ -1,0 +1,34 @@
+return {
+  summary   = "Traducción al español para Pokemon Oro, Plata y Cristal (diálogos, UI, nombres, radio, mapa, móvil).",
+  author    = "Fransis",
+  tags      = { "language", "spanish", "gold", "silver", "crystal" },
+  differences = {
+    changed = {
+      "Todos los diálogos del juego traducidos al español",
+      "Diálogos del Cristal (móvil/Pokegear, historia Suicune) traducidos vía PokeCorpus",
+      "Cadenas del motor (batalla, objetos, UI) traducidas",
+      "Nombres de objetos, movimientos y entrenadores traducidos",
+      "Estados de batalla con etiquetas HUD en español",
+      "Emisoras de radio del Pokegear traducidas",
+      "Nombres de lugares del mapa traducidos",
+      "Decoraciones de habitación traducidas",
+      "Pantalla de nombres con letras acentuadas",
+      "Fuente personalizada con glifos españoles",
+    },
+    added = {
+      "Soporte para Oro/Plata/Cristal (Gen 2) con capa de diálogo por versión",
+      "Capa de diálogo del Cristal (crystal_dialogue) con offsets propios",
+      "Pantalla de nombres con acentos (naming.lua)",
+    },
+    known = {
+      "Los nombres de Pokemon se mantienen en inglés (idénticos en ambos idiomas)",
+      "~39 cadenas del Cristal sin traducción directa quedan en inglés (fallback)",
+    },
+  },
+  credits   = {
+    { who = "Fransis", for_ = "traducción y adaptación" },
+    { who = "PokeCorpus", for_ = "diálogos originales traducidos" },
+    { who = "gen1recomp", for_ = "motor y sistema de mods (modkit)" },
+  },
+  compat    = { engine = ">=0.2.0 <1.0.0", modApi = 2 },
+}
