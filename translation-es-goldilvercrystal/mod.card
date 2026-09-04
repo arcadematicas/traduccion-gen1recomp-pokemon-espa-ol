@@ -1,12 +1,12 @@
 return {
-  summary   = "Traducción al español para Pokemon Oro, Plata y Cristal (diálogos, UI, nombres, radio, mapa, móvil).",
+  summary   = "Traducción completa al español para Pokemon Oro, Plata y Cristal (diálogos, Pokédex, objetos, movimientos, UI, nombres, radio, mapa, móvil).",
   author    = "Fransis",
   tags      = { "language", "spanish", "gold", "silver", "crystal" },
   differences = {
     changed = {
       "Todos los diálogos del juego traducidos al español",
-      "Diálogos del Cristal (móvil/Pokegear, historia Suicune) traducidos vía PokeCorpus",
-      "Cadenas del motor (batalla, objetos, UI) traducidas",
+      "Descripciones de Pokédex (251 Pokémon), objetos (250) y movimientos (251) traducidos",
+      "Cadenas del motor (batalla, radio, PC, tiendas, guardería) traducidas",
       "Nombres de objetos, movimientos y entrenadores traducidos",
       "Estados de batalla con etiquetas HUD en español",
       "Emisoras de radio del Pokegear traducidas",
@@ -22,7 +22,7 @@ return {
     },
     known = {
       "Los nombres de Pokemon se mantienen en inglés (idénticos en ambos idiomas)",
-      "~39 cadenas del Cristal sin traducción directa quedan en inglés (fallback)",
+      "~220 cadenas del motor con formato \\012\\011 sin traducción directa quedan en inglés (fallback)",
     },
   },
   credits   = {
