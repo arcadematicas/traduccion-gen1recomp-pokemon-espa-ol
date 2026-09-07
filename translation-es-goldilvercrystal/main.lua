@@ -1,4 +1,4 @@
--- translation-es-goldilvercrystal v0.3.0: traducción al español de Pokemon Gold, Silver y Crystal.
+-- translation-es-goldilvercrystal v0.4.0: traducción al español de Pokemon Gold, Silver y Crystal.
 --
 -- Detects the running version and applies the appropriate dialogue layer.
 -- Shared catalogs (items, moves, dex, engine strings, etc.) are identical
@@ -51,6 +51,9 @@ return function(mod)
   -- Shared catalogs (same for Gold, Silver and Crystal)
   counts.strings = each("strings", function(source, value)
     mod.content.strings:override(source, value)
+  end)
+  counts.romtext = each("rom_text", function(label, value)
+    mod.content.rom_text:override(label, value)
   end)
   counts.species = each("species_names", function(id, value)
     mod.content.pokemon:patch(id, { name = value })
@@ -140,6 +143,6 @@ return function(mod)
   mod.events:on("game.ready", function()
     local total = 0
     for _, n in pairs(counts) do total = total + n end
-    mod.log:info("Spanish (%s v0.3.0): %d strings translated", versionName, total)
+    mod.log:info("Spanish (%s v0.4.0): %d strings translated", versionName, total)
   end)
 end

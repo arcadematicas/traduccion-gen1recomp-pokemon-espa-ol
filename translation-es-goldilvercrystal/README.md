@@ -6,6 +6,7 @@ Traducción al español para **Pokémon Oro, Plata y Cristal** en gen1recomp.
 - **Motor:** gen1recomp (Mod API 2)
 - **Cobertura:**
   - Diálogos de Oro/Plata/Cristal (~99 % + intro del Profesor Oak)
+  - Cadenas rom_text (escenas, madre, Oak, objetos, radio) — 1011 claves
   - Cadenas del motor (menús, batalla, PC, tiendas, radio) — 1997 claves
   - Descripciones y categorías de la Pokédex (251 Pokémon)
   - Nombres de lugares (carteles y mapa Pokegear) — 96
