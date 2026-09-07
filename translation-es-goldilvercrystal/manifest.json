@@ -1,7 +1,7 @@
 {
   "id": "translation-es-goldilvercrystal",
   "name": "Traducción al español (Oro/Plata/Cristal)",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "api": 2,
   "entry": "main.lua",
   "profile": "content",
@@ -19,5 +19,6 @@
   "conflicts": [],
   "incompatible": [],
   "experimental": false,
+  "github": "arcadematicas/traduccion-gen1recomp-pokemon-espa-ol",
   "description": "Traducción completa al español para Pokemon Gold, Silver y Crystal: diálogos, cadenas rom_text (escenas, madre, Oak, objetos), cadenas del motor (menús, batalla, radio, PC, tiendas), Pokédex (251), lugares, decoraciones, estados, nombres y pantalla de nombres con acentos."
 }
