@@ -4,9 +4,14 @@ Traducción al español para **Pokémon Oro, Plata y Cristal** en gen1recomp.
 
 - **Juegos:** gold · silver · crystal
 - **Motor:** gen1recomp (Mod API 2)
-- **Cobertura:** diálogos 99,2 % + introducción de Oak, nombres, estados de
-  batalla, radio del Pokegear, lugares del mapa, decoraciones, cadenas del
-  motor, pantalla de nombres con acentos y fuente con glifos españoles.
+- **Cobertura:**
+  - Diálogos de Oro/Plata/Cristal (~99 % + intro del Profesor Oak)
+  - Cadenas del motor (menús, batalla, PC, tiendas, radio) — 1997 claves
+  - Descripciones y categorías de la Pokédex (251 Pokémon)
+  - Nombres de lugares (carteles y mapa Pokegear) — 96
+  - Nombres de objetos, movimientos y entrenadores
+  - Decoraciones de habitación y estados de batalla (HUD)
+  - Pantalla de nombres con acentos y fuente con glifos españoles
 
 ## Instalación
 
@@ -18,6 +23,12 @@ Extrae el contenido de este mod (es la raíz plana) en:
 
 Desactiva cualquier otra traducción de Oro/Plata y activa este desde el
 lanzador de mods.
+
+## Notas
+
+- Los nombres de Pokémon se mantienen en inglés (idénticos en ambos idiomas).
+- Las descripciones de objetos y movimientos no se pueden traducir por la API
+  de mods del motor (no están expuestas en el esquema de registros).
 
 ## Créditos
 

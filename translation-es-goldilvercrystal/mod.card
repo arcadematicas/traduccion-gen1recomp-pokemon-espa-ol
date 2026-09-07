@@ -1,28 +1,28 @@
 return {
-  summary   = "Traducción completa al español para Pokemon Oro, Plata y Cristal (diálogos, Pokédex, objetos, movimientos, UI, nombres, radio, mapa, móvil).",
+  summary   = "Traducción completa al español para Pokemon Oro, Plata y Cristal (diálogos, motor, Pokédex, mapa, radio, UI).",
   author    = "Fransis",
   tags      = { "language", "spanish", "gold", "silver", "crystal" },
   differences = {
     changed = {
       "Todos los diálogos del juego traducidos al español",
-      "Descripciones de Pokédex (251 Pokémon), objetos (250) y movimientos (251) traducidos",
-      "Cadenas del motor (batalla, radio, PC, tiendas, guardería) traducidas",
+      "Cadenas del motor (menús, batalla, PC, tiendas, radio) traducidas con claves correctas",
+      "Descripciones y categorías de Pokédex (251 Pokémon) traducidas",
+      "Nombres de lugares (carteles y mapa Pokegear) traducidos",
       "Nombres de objetos, movimientos y entrenadores traducidos",
-      "Estados de batalla con etiquetas HUD en español",
-      "Emisoras de radio del Pokegear traducidas",
-      "Nombres de lugares del mapa traducidos",
       "Decoraciones de habitación traducidas",
+      "Estados de batalla con etiquetas HUD en español",
       "Pantalla de nombres con letras acentuadas",
       "Fuente personalizada con glifos españoles",
     },
     added = {
       "Soporte para Oro/Plata/Cristal (Gen 2) con capa de diálogo por versión",
       "Capa de diálogo del Cristal (crystal_dialogue) con offsets propios",
-      "Pantalla de nombres con acentos (naming.lua)",
+      "descripciones de Pokédex parcheadas via dexEntry (text/text2/kind)",
+      "Nombres de los 251 Pokémon de Gen 2 en species_names",
     },
     known = {
       "Los nombres de Pokemon se mantienen en inglés (idénticos en ambos idiomas)",
-      "~220 cadenas del motor con formato \\012\\011 sin traducción directa quedan en inglés (fallback)",
+      "Las descripciones de objetos y movimientos no son parcheables por la API de mods del motor",
     },
   },
   credits   = {

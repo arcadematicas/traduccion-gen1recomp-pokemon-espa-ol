@@ -1,11 +1,12 @@
--- Etiquetas de estado de batalla (HUD) - Gold
--- Usa los IDs minusculas del sistema Gen 2: sleep, poison, toxic, paralyze, burn, freeze
--- label = texto que aparece en el HUD junto al Pokemon
+-- Etiquetas de estado de batalla (HUD) - Gold/Crystal
+-- IDs del sistema Gen 2: sleep, poison, toxic, paralyze, burn, freeze, confuse
+-- Formato plano: id -> label (string, como espera la API: patch(id, { label = value }))
 return {
-  ["sleep"] = { label = "DOR" },
-  ["poison"] = { label = "ENV" },
-  ["toxic"] = { label = "ENV" },
-  ["paralyze"] = { label = "PAR" },
-  ["burn"] = { label = "QUE" },
-  ["freeze"] = { label = "CON" },
+  ["sleep"] = "DOR",
+  ["poison"] = "ENV",
+  ["toxic"] = "ENV",
+  ["paralyze"] = "PAR",
+  ["burn"] = "QUE",
+  ["freeze"] = "CON",
+  ["confuse"] = "CONF",
 }

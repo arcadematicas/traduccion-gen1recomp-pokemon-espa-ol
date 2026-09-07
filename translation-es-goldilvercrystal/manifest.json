@@ -1,7 +1,7 @@
 {
   "id": "translation-es-goldilvercrystal",
   "name": "Traducción al español (Oro/Plata/Cristal)",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "api": 2,
   "entry": "main.lua",
   "profile": "content",
@@ -19,5 +19,5 @@
   "conflicts": [],
   "incompatible": [],
   "experimental": false,
-  "description": "Traducción completa al español para Pokemon Gold, Silver y Crystal: diálogos, descripciones de Pokédex (251 Pokémon), objetos (250), movimientos (251), cadenas del motor (batalla/radio/PC/tiendas/guardería), nombres, estados, radio, mapa, decoraciones y pantalla de nombres con acentos."
+  "description": "Traducción completa al español para Pokemon Gold, Silver y Crystal: diálogos, cadenas del motor (menús, batalla, radio, PC, tiendas), descripciones y categorías de Pokédex (251 Pokémon), nombres de lugares, decoraciones, estados, nombres de objetos/movimientos/entrenadores y pantalla de nombres con acentos."
 }
